@@ -2,10 +2,12 @@
   "name": "milagros_vasshus_dvp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc --noEmit",
+    "start": "ts-node-dev src/server.ts"
   },
   "repository": {
     "type": "git",
