@@ -3,17 +3,16 @@
 ## Description 💻
 
 
-This project is a REST API built with Express.js and TypeScript, using a MYSQL database for data storage. The API provides user authentication and allows authenticated users to submit their own articles.
+This assignment is a REST API built with Express.js and TypeScript, using a MYSQL database for data storage. The API provides user authentication and allows authenticated users to submit their own articles. This is a practice building a backend API, working with databases, implementing authentication, and handling HTTP requests and errors.
 
-The project was created to practice building a backend API, working with databases, implementing authentication, and handling HTTP requests and errors.
-
-No frontend is included in this project. The API can be tested using tolls such as Postman.
+No frontend is included in this project and the API can be tested using Postman.
 
 ## Technology Stack 🛠
 
 - Node.js
 - Express.js
 - TypeScript
+- VSCode
 - MYSQL
 - mysql2
 - JWT
