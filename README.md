@@ -51,30 +51,59 @@ This project uses two tables:
 - category
 - submitted_by
 - created_at
+
  
 ## Getting Started ✍
 
+### Prerequisites
+
+Before running the project, make sure the following are installed:
+
+- Node.js
+- MySQL
+- Postman
+
+### Clone the repository
+
+```bash
+git clone https://github.com/meluhrose/Milagros_Vasshus_DVP.git
+cd Milagros_Vasshus_DVP
+```
+
 ### Install dependencies
+
+Install the required npm packages.
 
   ```npm install```
 
 ### Enviornment variables
 
-Create .env file with your database and JWT settings.
+Create .env file in the root of the project.
 
+Add the following:
+
+```
   DB_HOST=localhost<br>
   DB_USER=your_username<br>
   DB_PASSWORD=your_password<br>
   DB_NAME=your_database<br>
   JWT_SECRET=your_secret<br>
+```
+Replace the values with your own MySQL crednetials and JWT secret.
 
 ### Run this project
 
 ```npm run dev```
 
+API Should run on:
+
+```
+http://localhost:3000
+```
+
 API can be tested using [Postman](https://www.postman.com/)
 
-### Testing🧪
+## Testing🧪
 
 - User registration
 - User login
